@@ -18,7 +18,7 @@
   <body>
 
     <!--NAVIGATION-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">myLandingPage</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,20 +61,111 @@
     <!--OUR PRODUCTS-->
     <section id="products">
       <div class="container">
-          <div class="row">
-              <div class="col-6 text-white text-center product1 py-5">
-                <h3>Our Products</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus porro quaerat magni. Quis iste nulla consequatur deleniti voluptates quo voluptatum?</p>
-                <a href="#" class="btn btn-light">Shop now</a>
-              </div>
-              <div class="col-6 text-white text-center product1 py-5">
-                  <h3>Our Products</h3>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus porro quaerat magni. Quis iste nulla consequatur deleniti voluptates quo voluptatum?</p>
-                  <a href="#" class="btn btn-light">Shop now</a>
+          <div class="row my-5">
+              <div class="col-lg-6 text-center product1 py-5">
+                <div class="card" style="width: 30rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Our Products</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ducimus vero fugiat exercitationem sed explicabo rerum ex sapiente aperiam inventore.</p>
+                    <a href="#" class="btn btn-info">Shop Here</a>
+                  </div>
                 </div>
+              </div>
+              <div class="col-lg-6 text-center product1 py-5">
+                <div class="card" style="width: 30rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Our Products</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ducimus vero fugiat exercitationem sed explicabo rerum ex sapiente aperiam inventore.</p>
+                    <a href="#" class="btn btn-info">Shop Here</a>
+                  </div>
+                </div>
+              </div>
             </div>
       </div>
     </section>
+
+    <!--OUR TEAM-->
+   <section class="ourteam bg-light py-5">
+     <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+         <div class="card shadow" style="width: 18rem;">
+           <img src="img/card1.png" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">Development Team</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-info">Go somewhere</a>
+           </div>
+         </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card shadow" style="width: 18rem;">
+            <img src="img/card2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Creative Team</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-info">Go somewhere</a>
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-4">
+          <div class="card shadow" style="width: 18rem;">
+            <img src="img/card3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Play Team</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-info">Go somewhere</a>
+            </div>
+          </div>
+         </div>
+      </div>
+     </div>
+   </section>
+
+   <!--CONTACTO-->
+   <section class="contacto bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <!--CONTACT FORM-->
+            <h3>CONTACT US</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dignissimos?</p>
+            <form action="">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="fas fa-user input-group-text"></i>
+                </div>
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <i class="fas fa-envelope input-group-text"></i>
+                  </div>
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <i class="fas fa-pencil-alt input-group-text"></i>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Message"></textarea>
+                  </div>
+                  <button class="btn btn-info btn-lg btn-block">
+                    SEND MESSAGE
+                  </button>
+            </form>
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer class="bg-dark text-white text-center py-1">
+    <p>A test Website Using Bootstrap | By Karen Gil</p>
+  </footer>
     
 
 
